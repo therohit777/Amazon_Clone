@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Css/checkout.css";
 import Checkout_banner from "../Images/checkoutbanner.jpg";
-import { Subtotal } from './Subtotal';
+// import { Subtotal } from './Subtotal';
 
 export const Checkoutpage = () => {
   return (
@@ -15,7 +15,7 @@ export const Checkoutpage = () => {
 
 
         <div className="checkout_right">
-          <Subtotal/>       
+          {/* <Subtotal/>        */}
         </div>
 
     </div>
