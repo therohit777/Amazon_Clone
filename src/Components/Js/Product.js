@@ -17,7 +17,7 @@ export const Product = ({title,image,price,rating}) => {
                     </div>
                 ))}
             </div>
-            <img src={image} className='product_image' />
+            <img src={image} className='product_image' alt="None" />
             <div className="button_row">
                <button className='pro_button'>Add to Basket</button>
             </div>
