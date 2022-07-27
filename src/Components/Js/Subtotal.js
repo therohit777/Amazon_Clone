@@ -1,12 +1,12 @@
 import React from 'react';
-import CurrencyFormat from 'react-currency-format';
+// import CurrencyFormat from 'react-currency-format';
 import "../Css/subtotal.css";
 
 
 export const Subtotal = () => {
   return (
     <div className='subtotal'>
-        <CurrencyFormat
+        {/* <CurrencyFormat
         renderText={(value)=>(
             <>
                 <p>
@@ -22,7 +22,7 @@ export const Subtotal = () => {
         displayType={"text"}
         thousandSeparator={true}
         prefix={"$"}
-        />
+        /> */}
         <button className='subtotal_button'>Proceed to Checkout</button>
     </div>
   )
