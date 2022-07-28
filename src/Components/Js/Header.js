@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div className='header'>
         <Link to="/">
-        <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" className="headerlogo"alt="" />
+           <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" className="headerlogo"alt="None" />
         </Link>
         <div className="searchcompo">
             <input type="text" className='headersearch_box'/>
